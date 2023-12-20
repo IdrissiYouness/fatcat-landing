@@ -1,14 +1,37 @@
 *{
    margin: 0;
+   font-family: 'Nunito', sans-serif;
+}
+
+header{
+  padding-top:50px;
+  background-color:#ECB283;
 }
 
 .navbar {
-  background-color: skyblue;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 0 200px 0 50px;
+}
+
+.lorem{
+  width:100px;
+}
+
+img{
+  width:700px;
+  height:400px;
+}
+
+h2{
+  width:250px;
+}
+
+.nav-logo{
+  font-size:40px;
 }
 
 ul{
@@ -16,11 +39,68 @@ ul{
   display:flex;
   flex-direction: row;
   justify-content:space-between;
-  gap:50px; 
+  gap:50px;
 
 }
 
+
 a{
     text-decoration: none;
+  color: black;
   }
+
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 0 50px 0 50px;
+    align-items: center;
+    background-color:#ECB283;
+  }
+
+p{
+  width: 700px;
+
+}
+
+
+.heading{
+  display: flex;
+  flex-direction:column;
+}
+
+
+.btns-container{
+  margin-top:30px;
+  display: flex;
+  flex-direction: row;
+  gap:15px;
+}
+
+
+.btn{
+  border: 0;
+  border-radius: 10px;
+  padding:10px 20px;
+  background-color:#F8F3F1;
+}
+
+.re-cl{
+   background-color:#F99548;
+}
+
+
+.btn:hover{
+  cursor:pointer;
+  
+}
+
+
+
+
+
+
+
+
 

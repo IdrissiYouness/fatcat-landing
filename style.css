@@ -34,7 +34,7 @@ h2{
   font-size:40px;
 }
 
-ul{
+header ul{
   list-style: none;
   display:flex;
   flex-direction: row;
@@ -46,7 +46,7 @@ ul{
 
 a{
     text-decoration: none;
-  color: black;
+    color: black;
   }
 
 
@@ -95,6 +95,125 @@ p{
   cursor:pointer;
   
 }
+.features-sec{
+  background-color:#F8F3F1;
+}
+.features-sec h2{
+  margin: auto;
+  text-align: center;
+  padding:60px 0;
+}
+
+
+
+.flex-features{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+
+
+.flex-features div{
+  background-color:silver;
+  width: 300px;
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.flex-features div div {
+  width:75px;
+  height:75px;
+  background-color:#3F3D56;
+  border-radius:50%;
+}
+
+.flex-features div p{
+  width:214px;
+  height:66px;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
+.pricing-sec div{
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  padding-bottom:60px;
+}
+
+
+.pricing-sec div div{
+  width: 320px;
+  height: 435px;
+  background-color: silver;
+}
+
+
+.pricing-sec{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:#F8F3F1;
+}
+
+.pricing-sec h2{
+  padding-top:65px;
+}
+.pricing-sec p{
+   padding-bottom:20px;
+}
+
+footer{
+  background-color:#ECB283;
+
+}
+
+
+.social-ic{
+  display: flex;
+  gap:20px;
+
+}
+
+.social-ic img{
+  width: 24px;
+  height: 24px;
+}
+
+#head-cat{
+  width:70px;
+  height:61px;
+  padding:20px 20px;
+}
+
+.footer-links{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  gap:15px;
+}
+
+footer{
+  padding:100px 25px 10px 25px;
+}
+footer div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 
 
